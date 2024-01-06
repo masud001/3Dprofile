@@ -154,6 +154,7 @@ body{
     font-weight: 500;
     margin: 0 1rem;
     transition: .5s;
+    cursor: pointer;
 }
 .btn:hover{
     background: transparent;
@@ -189,10 +190,6 @@ body{
     background: var(--pages-color);
     padding: 1.5rem 2rem;
 }
-
-
-
-
 .book-page .page-front{
     transform: rotateY(0deg) translateZ(1px);
 }
@@ -417,6 +414,7 @@ body{
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 
 }
 .back-rpofile:hover{
